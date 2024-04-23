@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtAddStaffOk" xml:space="preserve">
+    <value>افزودن كارمند با موفقيت انجام شد.</value>
+  </data>
+  <data name="txtAllowedFileTypes" xml:space="preserve">
+    <value>.pdf;.doc;.docx;.ppt;.pptx</value>
+  </data>
+  <data name="txtAllowedImageType" xml:space="preserve">
+    <value>.jpg;.png;.gif;.jpeg</value>
+  </data>
+  <data name="txtConnectionString" xml:space="preserve">
+    <value>server=.;uid=sa;pwd=sa123;database=edari</value>
+  </data>
+  <data name="txtEditeAddetiveDeleted" xml:space="preserve">
+    <value>مانده مرخصي حذف شد.</value>
+  </data>
+  <data name="txtEditeAddetiveUpdated" xml:space="preserve">
+    <value>مانده مرخصي به روز رساني شد.</value>
+  </data>
+  <data name="txtHideRightBannerText" xml:space="preserve">
+    <value>نسخه قابل چاپ</value>
+  </data>
+  <data name="txtPersonnelIDIsNotValid" xml:space="preserve">
+    <value>شماره پرسنلي موجود نيست</value>
+  </data>
+  <data name="txtPhotoUploadPath" xml:space="preserve">
+    <value>~/uploads/users/images</value>
+  </data>
+  <data name="txtRemovableWords" xml:space="preserve">
+    <value>از;به;با;برای;اینکه;یا;ام;اش;آن;این;ان;می;ها;های;زیرا;در;را;که;برا;بر;است;تا;باش;کرد;اما;اند;اى;ای;ای;اي;و;ما;</value>
+  </data>
+  <data name="txtShowRightBannerText" xml:space="preserve">
+    <value>بازگشت</value>
+  </data>
+  <data name="txtSiteTitle" xml:space="preserve">
+    <value>نظام جامع پیگیری وصول مطالبات :: مديريت شعب استان البرز</value>
+  </data>
+  <data name="txtUsersImagePath" xml:space="preserve">
+    <value>~/images/perpic/{0}.jpg</value>
+  </data>
+  <data name="txtUsersSignPath" xml:space="preserve">
+    <value>~/images/Emza/{0}.jpg</value>
+  </data>
+  <data name="txtVosoolCaution1" xml:space="preserve">
+    <value>&lt;div class=Section1 dir=RTL&gt;
+
+&lt;p class=MsoNormal dir=RTL&gt;&lt;b&gt;&lt;span lang=FA style='font-size:14.0pt;line-height:
+115%;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";mso-hansi-font-family:
+"B Nazanin";color:#454545'&gt;جناب آقاي /سركار&lt;/span&gt;&lt;/b&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;b&gt;&lt;span
+lang=FA dir=LTR style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span
+lang=FA style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin";
+mso-ascii-font-family:"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;خانم &lt;/span&gt;&lt;/b&gt;&lt;span
+dir=LTR&gt;&lt;/span&gt;&lt;b&gt;&lt;span dir=LTR style='font-size:14.0pt;line-height:115%;
+font-family:"B Nazanin","sans-serif";mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span
+dir=LTR&gt;&lt;/span&gt;{0}&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=FA style='font-size:14.0pt;
+line-height:115%;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";
+mso-hansi-font-family:"B Nazanin";color:#454545'&gt;&lt;br&gt;
+موضوع:تاخير در تسويه بدهي&lt;/span&gt;&lt;/b&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;b&gt;&lt;span lang=FA
+dir=LTR style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span
+lang=FA style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin";
+mso-ascii-font-family:"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;قرارداد
+&lt;/span&gt;&lt;/b&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;b&gt;&lt;span dir=LTR style='font-size:14.0pt;
+line-height:115%;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:"B Nazanin";
+color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt;{1} &lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=FA
+style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal dir=RTL style='text-align:justify'&gt;&lt;span lang=FA
+style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;احتراماً، نظر به اينكه در
+سررسيد&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR style='font-size:14.0pt;
+line-height:115%;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:"B Nazanin";
+color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=FA style='font-size:
+14.0pt;line-height:115%;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";
+mso-hansi-font-family:"B Nazanin";color:#454545'&gt;مطالبات بانك در خصوص تسويه بدهي خود
+ناشي از قرارداد مذكور&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR
+style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin";
+mso-ascii-font-family:"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;اقدام
+ننموده ايد، به شما اخطار مي گردد، در اسرع وقت نسبت به پرداخت مطالبات بانك&lt;/span&gt;&lt;span
+dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR style='font-size:14.0pt;line-height:115%;
+font-family:"B Nazanin","sans-serif";mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span
+dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=FA style='font-size:14.0pt;line-height:115%;
+font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";mso-hansi-font-family:
+"B Nazanin";color:#454545'&gt;اقدام نمائيد، بديهي است با توجه به اينكه طبق مفّاد
+قرارداد به مطالبات بانك، خسارت&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA
+dir=LTR style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin";
+mso-ascii-font-family:"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;تأخير
+تأيه و هزينه هاي پيگيري وصول مطالبات بانك&lt;/span&gt;&lt;span lang=FA style='font-size:
+14.0pt;line-height:115%;font-family:"Times New Roman","serif";color:#454545'&gt;&amp;nbsp;&lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin";
+mso-ascii-font-family:"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;تعلق
+مي گيرد، بدهي شما روزانه&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR
+style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin";
+mso-ascii-font-family:"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;اضافه
+شده ضمن اينكه بانك ناگزير مي شود اقدامات قانوني عليه شما را به منظور&lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;line-height:115%;font-family:"Times New Roman","serif";
+color:#454545'&gt;&amp;nbsp;&lt;/span&gt;&lt;span lang=FA style='font-size:14.0pt;line-height:
+115%;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";mso-hansi-font-family:
+"B Nazanin";color:#454545'&gt;وصول&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR
+style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin";
+mso-ascii-font-family:"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;مطالبات
+خود معمول&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR style='font-size:
+14.0pt;line-height:115%;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:
+"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;نمايد&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;line-height:115%;font-family:"B Nazanin"'&gt;.&lt;/span&gt;&lt;span
+dir=LTR style='font-size:14.0pt;line-height:115%;mso-bidi-font-family:"B Nazanin"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal align=center dir=RTL style='margin-right:196.15pt;
+text-align:center'&gt;&lt;b&gt;&lt;span lang=FA style='font-size:14.0pt;line-height:115%;
+font-family:"B Nazanin"'&gt;بانک مسکن شعبه {2}&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+اقدام کننده: {3}
+&lt;/div&gt;</value>
+  </data>
+  <data name="txtVosoolCaution2" xml:space="preserve">
+    <value>&lt;div class=Section1 dir=RTL&gt;
+
+&lt;p dir=RTL style='text-align:right;direction:rtl;unicode-bidi:embed'&gt;&lt;b&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;جناب آقاي/سركار خانم  &lt;/span&gt;&lt;/b&gt;&lt;span
+dir=LTR&gt;&lt;/span&gt;&lt;b&gt;&lt;span dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt;{0}&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;&lt;br&gt;
+موضوع: اخطار بررسي و شروع اقدامات&lt;/span&gt;&lt;/b&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;b&gt;&lt;span
+lang=FA dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;قانوني&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span
+dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:
+"B Nazanin";color:#454545'&gt;&lt;br style='mso-special-character:line-break'&gt;
+&lt;![if !supportLineBreakNewLine]&gt;&lt;br style='mso-special-character:line-break'&gt;
+&lt;![endif]&gt;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=FA style='font-size:14.0pt;font-family:"B Nazanin";
+mso-ascii-font-family:"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p dir=RTL style='text-align:right;direction:rtl;unicode-bidi:embed'&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;احتراماً، نظر به اينكه علي
+رغم تذكرات قبلي كماكان از بازپرداخت&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA
+dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:
+"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";
+mso-hansi-font-family:"B Nazanin";color:#454545'&gt;مطالبات بانك ناشي از تسهيلات اعطائي
+اين شعبه به&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR style='font-size:
+14.0pt;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:"B Nazanin";
+color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=FA style='font-size:
+14.0pt;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";mso-hansi-font-family:
+"B Nazanin";color:#454545'&gt;شماره &lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span dir=LTR
+style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:
+"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt;{1}&lt;/span&gt;&lt;span dir=RTL&gt;&lt;/span&gt;&lt;span
+style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";
+mso-hansi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=RTL&gt;&lt;/span&gt; &lt;span
+lang=FA&gt;خودداري نموده ايد، بررسي اقدامات قانوني عليه شما ضمن&lt;/span&gt;&lt;/span&gt;&lt;span
+dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;اعلام به بانك مركزي جهت
+قراردادن شما در ليست مشتريان بدحساب شبكه بانكي،&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;color:#454545'&gt;&amp;nbsp;&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";
+mso-hansi-font-family:"B Nazanin";color:#454545'&gt;شروع و&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span
+lang=FA dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;به زودي به مرحله اجراء خواهد
+رسيد.&lt;br&gt;
+بنابراين لازم است بمنظور جلوگيري&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA
+dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:
+"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";
+mso-hansi-font-family:"B Nazanin";color:#454545'&gt;از اقدمات قانوني بانك كه موجب تعلق
+هزينه هاي قابل توجه به شما خواهد شد،در اسرع&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span
+lang=FA dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;وقت نسبت به پرداخت بدهي خود
+اقدام نماييد.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p align=center dir=RTL style='margin-right:189.05pt;text-align:center;
+direction:rtl;unicode-bidi:embed'&gt;&lt;b&gt;&lt;span lang=FA style='font-size:14.0pt;
+font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";mso-hansi-font-family:
+"B Nazanin";color:#454545'&gt;بانک مسکن شعبه {2} &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+اقدام کننده: {3}
+
+&lt;/div&gt;</value>
+  </data>
+  <data name="txtVosoolCaution3" xml:space="preserve">
+    <value>&lt;div class=Section1 dir=RTL&gt;
+
+&lt;p&gt;   &lt;/p&gt;
+&lt;p dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:embed'&gt;&lt;b&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;مشتري گرامي؛&lt;O:P&gt;&lt;/O:P&gt;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span
+dir=LTR style='font-size:14.0pt'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:embed'&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;باسلام&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span
+dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:
+"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt;.&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt'&gt;&lt;O:P&gt;&lt;/O:P&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:embed'&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;احتراماً، نظر&lt;/span&gt;&lt;span
+dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;به اينكه جنابعالي متعهد و
+مديون قرارداد&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";
+mso-hansi-font-family:"B Nazanin";color:#454545'&gt;شماره&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span
+dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:
+"B Nazanin";color:#454545'&gt;&lt;span dir=LTR lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt; &lt;b&gt; {0} &lt;/b&gt; &lt;/span&gt;  &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;اين بانك مي باشيد و به رغم
+اخطارهاي مكرر نسبت به تاديه مطالبات بانك&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span
+lang=FA dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;اقدامي ننموده ايد، لذا
+بدينوسيله اجرائيات بانك به شما اخطار مي نمايد حداكثر&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span
+lang=FA dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;ظرف&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;u&gt;&lt;span
+dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:
+"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/u&gt;&lt;span dir=RTL&gt;&lt;/span&gt;&lt;strong&gt;&lt;u&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=RTL&gt;&lt;/span&gt;10&lt;/span&gt;&lt;/u&gt;&lt;/strong&gt;&lt;span
+dir=LTR&gt;&lt;/span&gt;&lt;strong&gt;&lt;u&gt;&lt;span lang=FA dir=LTR style='font-size:14.0pt;
+font-family:"B Nazanin","sans-serif";mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span
+dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;/u&gt;&lt;/strong&gt;&lt;strong&gt;&lt;u&gt;&lt;span lang=FA style='font-size:
+14.0pt;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";mso-hansi-font-family:
+"B Nazanin";color:#454545'&gt;روز&lt;/span&gt;&lt;/u&gt;&lt;/strong&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span
+lang=FA dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;از تاريخ ابلاغ اين اخطاريه
+جهت پرداخت مطالبات بانك&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR
+style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:
+"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";
+mso-hansi-font-family:"B Nazanin";color:#454545'&gt;به شعبه مراجعه&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;color:#454545'&gt;&amp;nbsp;&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";
+mso-hansi-font-family:"B Nazanin";color:#454545'&gt;فرماييد در صورت عدم تاديه&lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;color:#454545'&gt;&amp;nbsp;&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";
+mso-hansi-font-family:"B Nazanin";color:#454545'&gt;؛اين بانك ناگزير به اقدامات اجرائي&lt;/span&gt;&lt;span
+dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;خواهد شد، بديهي است عواقب
+عدم پرداخت مطالبات بانك به شرح ذيل مي&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA
+dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:
+"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";
+mso-hansi-font-family:"B Nazanin";color:#454545'&gt;باشد&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span
+dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:
+"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt;.&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt'&gt;&lt;O:P&gt;&lt;/O:P&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p dir=RTL style='margin-right:4.75pt;text-align:justify;direction:rtl;
+unicode-bidi:embed'&gt;&lt;span lang=FA style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-fareast-font-family:"B Nazanin";color:#454545'&gt;1.&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;mso-fareast-font-family:"B Nazanin";color:#454545'&gt;&amp;nbsp; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;با صدور اجرائيه كل بدهي
+مديون به دين حال تبديل&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR
+style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:
+"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";
+mso-hansi-font-family:"B Nazanin";color:#454545'&gt;مي شود و ديگر اقساط معوق اخذ نخواهد
+شد و بايستي كل مطالبات بانك دفعتا واحده&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span
+lang=FA dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;پرداخت گردد.&lt;O:P&gt;&lt;/O:P&gt;&lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p dir=RTL style='margin-right:4.75pt;text-align:justify;direction:rtl;
+unicode-bidi:embed'&gt;&lt;span lang=FA style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-fareast-font-family:"B Nazanin";color:#454545'&gt;2.&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;mso-fareast-font-family:"B Nazanin";color:#454545'&gt;&amp;nbsp;&lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;قرار دادن بدهكار در ليست
+مشتريان بد حساب بانكي&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR
+style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:
+"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt'&gt;&lt;O:P&gt;&lt;/O:P&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p dir=RTL style='margin-right:4.75pt;text-align:justify;direction:rtl;
+unicode-bidi:embed'&gt;&lt;span lang=FA style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-fareast-font-family:"B Nazanin";color:#454545'&gt;3.&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;mso-fareast-font-family:"B Nazanin";color:#454545'&gt;&amp;nbsp;&lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;تعلق هزينه&lt;/span&gt;&lt;span
+dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;صدور اجرائيه&lt;O:P&gt;&lt;/O:P&gt;&lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p dir=RTL style='margin-right:4.75pt;text-align:justify;direction:rtl;
+unicode-bidi:embed'&gt;&lt;span lang=FA style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-fareast-font-family:"B Nazanin";color:#454545'&gt;4.&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;mso-fareast-font-family:"B Nazanin";color:#454545'&gt;&amp;nbsp;&lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;تعلق هزينه نيمعشر اجرائي&lt;O:P&gt;&lt;/O:P&gt;&lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p dir=RTL style='margin-right:4.75pt;text-align:justify;direction:rtl;
+unicode-bidi:embed'&gt;&lt;span lang=FA style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-fareast-font-family:"B Nazanin";color:#454545'&gt;5.&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;mso-fareast-font-family:"B Nazanin";color:#454545'&gt;&amp;nbsp;&lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;تعلق هزينه ارزيابي مورد
+وثيقه&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR style='font-size:14.0pt;
+font-family:"B Nazanin","sans-serif";mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span
+dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=FA style='font-size:14.0pt;font-family:"B Nazanin";
+mso-ascii-font-family:"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;توسط
+كارشناس رسمي دادگستري&lt;O:P&gt;&lt;/O:P&gt;&lt;/span&gt;&lt;span lang=FA style='font-size:14.0pt'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p dir=RTL style='margin-right:4.75pt;text-align:justify;direction:rtl;
+unicode-bidi:embed'&gt;&lt;span lang=FA style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-fareast-font-family:"B Nazanin";color:#454545'&gt;6.&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;mso-fareast-font-family:"B Nazanin";color:#454545'&gt;&amp;nbsp;&lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;تعلق هزينه مزايده مورد وثيقه&lt;O:P&gt;&lt;/O:P&gt;&lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p dir=RTL style='margin-right:4.75pt;text-align:justify;direction:rtl;
+unicode-bidi:embed'&gt;&lt;span lang=FA style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-fareast-font-family:"B Nazanin";color:#454545'&gt;7.&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;mso-fareast-font-family:"B Nazanin";color:#454545'&gt;&amp;nbsp;&lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;تعلق خسارت&lt;/span&gt;&lt;span
+dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;تاخير به صورت تصاعدي&lt;/span&gt;&lt;span
+dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt'&gt;&lt;O:P&gt;&lt;/O:P&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p dir=RTL style='margin-right:4.75pt;text-align:justify;direction:rtl;
+unicode-bidi:embed'&gt;&lt;span lang=FA style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-fareast-font-family:"B Nazanin";color:#454545'&gt;8.&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;mso-fareast-font-family:"B Nazanin";color:#454545'&gt;&amp;nbsp;&lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;تعلق هزينه حق الوكاله وكيل
+حقوقي بانك&lt;O:P&gt;&lt;/O:P&gt;&lt;/span&gt;&lt;span lang=FA style='font-size:14.0pt'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p dir=RTL style='margin-right:4.75pt;text-align:justify;direction:rtl;
+unicode-bidi:embed'&gt;&lt;span lang=FA style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-fareast-font-family:"B Nazanin";color:#454545'&gt;9.&lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;mso-fareast-font-family:"B Nazanin";color:#454545'&gt;&amp;nbsp;&lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;كليه&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span
+dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:
+"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&amp;nbsp; &lt;/span&gt;&lt;span lang=FA
+style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";
+mso-hansi-font-family:"B Nazanin";color:#454545'&gt;هزينه هائي را كه بانك طبق قرارداد
+بمنظور پيگيري&lt;/span&gt;&lt;span lang=FA style='font-size:14.0pt;color:#454545'&gt;&amp;nbsp;&lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;وصول مطالبات خود انجام مي&lt;/span&gt;&lt;span
+dir=LTR&gt;&lt;/span&gt;&lt;span lang=FA dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";
+mso-bidi-font-family:"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt; &lt;/span&gt;&lt;span
+lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin";mso-hansi-font-family:"B Nazanin";color:#454545'&gt;هد&lt;/span&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;span
+dir=LTR style='font-size:14.0pt;font-family:"B Nazanin","sans-serif";mso-bidi-font-family:
+"B Nazanin";color:#454545'&gt;&lt;span dir=LTR&gt;&lt;/span&gt;.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p dir=RTL style='margin-right:4.75pt;text-align:justify;direction:rtl;
+unicode-bidi:embed'&gt;&lt;span lang=FA style='font-size:14.0pt'&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+
+
+&lt;p align=center dir=RTL style='margin-right:224.5pt;text-align:center;
+direction:rtl;unicode-bidi:embed'&gt;&lt;b&gt;&lt;span lang=FA style='font-size:14.0pt;
+font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin";mso-hansi-font-family:
+"B Nazanin";color:#454545'&gt;بانك مسكن شعبه {1}&lt;O:P&gt;&lt;/O:P&gt; &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+اقدام کننده: {2}
+
+&lt;/div&gt;</value>
+  </data>
+</root>
